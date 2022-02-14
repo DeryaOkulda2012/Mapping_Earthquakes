@@ -10,16 +10,18 @@ To complete this project, we use a URL for GeoJSON earthquake data from the USGS
 
 ## Approach
 
-The approach will be to use the JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. We'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
+The approach will be to use JavaScript and the D3.js library to retrieve the coordinates and magnitudes of the earthquakes from the GeoJSON data. We'll use the Leaflet library to plot the data on a Mapbox map through an API request and create interactivity for the earthquake data.
 
-The earthquake map is created with two different maps and the earthquake overlay. Now the earthquake data will be shown in relation to the tectonic plates’ location on the earth, and all the earthquakes with a magnitude greater than 4.5 is shown on the map. There is also a third map showing the night, and all earthquakes in the last seven (7) days.
+The earthquake map is created with two different maps and the earthquake overlay. The earthquake data will be shown in relation to the tectonic plates’ location on the earth, and all the earthquakes with a magnitude greater than 4.5 is shown on the map. There is also a third map showing the night, and all earthquakes in the last seven (7) days.
+
+The Earthquake map overlay on a Street Map:
 
 !["Photo_Gallery/Earthquake_Map.png"](Photo_Gallery/Earthquake_Map.png)
 
-Same earthquake map overlay with a Satellite Map
+Same earthquake map overlay on a Satellite Map:
 
 !["Photo_Gallery/Earthquake_Map_Satellite.png"](Photo_Gallery/Earthquake_Map_Satellite.png)
 
-Same earthquake map overlay with a Night Map
+Same earthquake map overlay on a Night Map:
 
 !["Photo_Gallery/Earthquake_Map_Night.png"](Photo_Gallery/Earthquake_Map_Night.png)
